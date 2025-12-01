@@ -1,7 +1,3 @@
-
-
-Certainly! Here’s a well-structured, markdown-formatted section for your `README.md` file, covering Kafka’s overview, real-life usage, architecture, and core components:
-
 ---
 
 # Kafka Overview
@@ -34,9 +30,11 @@ All these services remain **decoupled**, **scalable**, and process events in **r
 ---
 
 ## 🏗️ Architecture Overview
-
 ```mermaid
-![alt text](image.png)
+flowchart LR
+    A[Node.js Producer] -- Sends data --> B[Kafka Topic]
+    B -- Stores data --> C[Node.js Consumer]
+    C -- Reads data --> D[ ]
 ```
 
 - **Producer** → **Kafka Topic** → **Consumer**
@@ -69,6 +67,3 @@ All these services remain **decoupled**, **scalable**, and process events in **r
     - Messages are stored for a configurable time, allowing consumers to **replay** them
 
 ---
-
-Feel free to copy and paste this into your `README.md`.  
-Let me know if you want to add diagrams, code samples, or further details!
