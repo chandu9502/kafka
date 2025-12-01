@@ -1,5 +1,3 @@
----
-
 # Kafka Overview
 
 **Kafka** is a high-throughput, distributed messaging system used for:
@@ -10,8 +8,6 @@
 - **High-volume message processing**
 
 Kafka is extremely fast, scalable, and reliable compared to traditional message queues.
-
----
 
 ## Real-Life Usage Example
 
